@@ -1,0 +1,53 @@
+== Hello World: Compilation & Execution
+
+Alija Sabic, link:mailto:sabic.alija@gmail.com?subject=GitHub:&#160;hello-world[sabic.alija@gmail.com]
+
+
+Pull this repository by entering:
+
+----
+~$ git clone https://github.com/sabicalija/hello-world.git
+----
+
+=== Compilation
+
+To create an *executable* out of the provided _source code_ or, in other words, to compile the _source code_ to *machine code*, enter following commands:
+
+----
+~/hello-world$ gcc hello.c
+----
+
+[TIP]
+=====
+In case you don't have `gcc` installed on your PC, enter `sudo apt install build-essential` (on Ubuntu) or `yum install gcc` (on Fedora).
+=====
+
+GCC will create an executable called `a.out` (on default).
+You can specify a (output) name using `-o name`.
+For instance, enter
+
+----
+~/hello-world$ gcc hello.c -o hello
+----
+
+See what's files are currently in the directory by entering
+
+----
+~/hello-world$ ls
+a.out  hello  hello.c  README.adoc
+----
+
+=== Execution
+
+When running commands in a terminal, UNIX-based systems usually look for an executable placed in one of the locations listed in `$PATH`.
+
+To run one's own executable, you have to tell the system that it should look for an exectuable inside the current directory, using `.`
+----
+~/hello-world$ ./hello
+Hello World!
+----
+
+[WARNING]
+=====
+Your user account needs to have permissions, to be able to execute a _certain_ program.
+=====
