@@ -1,4 +1,4 @@
-== Hello World: Compilation & Execution
+= Hello World: Compilation & Execution
 
 Alija Sabic, link:mailto:sabic.alija@gmail.com?subject=GitHub:&#160;hello-world[sabic.alija@gmail.com]
 
@@ -9,7 +9,7 @@ Pull this repository by entering:
 ~$ git clone https://github.com/sabicalija/hello-world.git
 ----
 
-=== Compilation
+== Compilation
 
 To create an *executable* out of the provided _source code_ or, in other words, to compile the _source code_ to *machine code*, enter following commands:
 
@@ -38,7 +38,7 @@ Take a look at what files are currently in the directory by entering
 a.out  hello  hello.c  README.adoc
 ----
 
-=== Execution
+== Execution
 
 When running commands in a terminal, UNIX-based systems usually look for an executable placed in one of the locations listed in `$PATH`.
 
